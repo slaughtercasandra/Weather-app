@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  /* font-family: Arial, sans-serif; */
-}
 
 header {
   background-color:blue;
@@ -24,14 +19,12 @@ aside {
   background-color: #f2f2f2;
   padding: 20px;
   width: 300px;
-  flex-direction: column;
 }
 
 form {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 10px;  /* justify-content: space-between; */
 }
+
 
 
 button {
@@ -41,9 +34,33 @@ button {
   width: 100px;
 }
 
+.weatherContainer {
+    display: flex;
+    padding: 10px ;
+}
 
+.weatherCard {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 10px;
+    padding: 10px;
+}
 
+.forecastContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 
+}
+
+.forecastCard {
+  height: 300px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3498db;
+}
 
 
 
